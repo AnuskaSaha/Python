@@ -1,0 +1,6 @@
+f = open("sample.txt","r")
+f_data = f.read()
+f.close()
+print(f_data)
+words = f_data.split()
+print("\nThe total word count in the above text = {}".format(len(words)))
